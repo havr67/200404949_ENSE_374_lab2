@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <title>Login </title>
+     <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="main.css">
+
+   </head>
+   <body>
+     <h1 class="middle">To-Do Prototype</h1>
+       <div id ="container">
+        <div id="accordion">
+         <div class="card">
+           <div class="card-header">
+             <a class="card-link" data-toggle="collapse" href="#collapseOne">
+               Login
+             </a>
+           </div>
+           <div id="collapseOne" class="collapse show" data-parent="#accordion">
+             <div class="card-body">
+             <form action="do.html">
+                       <div class="form-group">
+                         <input type="email" class="form-control"  placeholder="Type Email" name="email" id="email" size="60">
+                       </div>
+                       <div class="form-group">
+                         <input type="password" name="password" id="password" value="" class="form-control" placeholder="Password" size="60">
+                       </div>
+                       <button type="submit" class="btn btn-primary">Submit</button>
+                     </form>
+             </div>
+           </div>
+         </div>
+         <div class="card">
+           <div class="card-header">
+             <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+             Sign Up
+           </a>
+           </div>
+           <div id="collapseTwo" class="collapse" data-parent="#accordion">
+             <div class="card-body">
+                <form action="do.html">
+                       <div class="form-group">
+
+                         <input type="email" class="form-control"  placeholder="Type Email" name="email" id="email" size="60">
+                       </div>
+                       <div class="form-group">
+
+                         <input type="password" name="password" id="password" value="" class="form-control" placeholder="Password" size="60">
+                       </div>
+                       <div class="form-group">
+
+                          <input type="password" name="password" id="password" value="" class="form-control" placeholder="Password" size="60">
+                        </div>
+                       <button type="submit" class="btn btn-primary">Sign Up</button>
+                     </form>
+             </div>
+           </div>
+         </div>
+       </div>
+      </div>
+
+  </body>
+
+
+
+
+</html>
